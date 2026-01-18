@@ -86,8 +86,8 @@ call = client.calls.create(
 // Install Node.js SDK
 npm install pollax
 
-// Quick Start
-const { Pollax } = require('pollax');
+// Quick Start (ESM)
+import { Pollax } from 'pollax';
 
 const client = new Pollax({ apiKey: 'sk_live_your_api_key' });
 
@@ -100,6 +100,20 @@ const call = await client.calls.create({
   phoneNumber: '+1234567890',
   task: 'Schedule a demo'
 });
+
+// Or using CommonJS with async function
+// const { Pollax } = require('pollax');
+// 
+// async function main() {
+//   const client = new Pollax({ apiKey: 'sk_live_your_api_key' });
+//   const agents = await client.agents.list();
+//   const call = await client.calls.create({
+//     agentId: 'agent_abc123',
+//     phoneNumber: '+1234567890',
+//     task: 'Schedule a demo'
+//   });
+// }
+// main();
 ```
 
 ### Resources
