@@ -1,13 +1,13 @@
 # Pollax AI - Intelligent Voice Automation Platform
 
 <div align="center">
-  <img src="https://pollax.ai/logo.png" alt="Pollax AI Logo" width="200"/>
+  <img src="pollax-logo.png" alt="Pollax AI Logo" width="200"/>
   
   ### Transform Customer Interactions with AI-Powered Voice Agents
   
   [![Website](https://img.shields.io/badge/Website-pollax.ai-blue?style=for-the-badge)](https://www.pollax.ai)
   [![PyPI](https://img.shields.io/pypi/v/pollax?style=for-the-badge&logo=python)](https://pypi.org/project/pollax/)
-  [![Documentation](https://img.shields.io/badge/Docs-Available-green?style=for-the-badge)](https://docs.pollax.ai)
+  [![Documentation](https://img.shields.io/badge/Docs-Available-green?style=for-the-badge)](https://www.pollax.ai/docs)
   [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 </div>
 
@@ -104,7 +104,7 @@ const call = await client.calls.create({
 
 ### Resources
 
-- **[Documentation](https://docs.pollax.ai)** - Complete API reference and guides
+- **[Documentation](https://www.pollax.ai/docs)** - Complete API reference and guides
 - **[SDK Repository](https://github.com/pollaxai/pollax-sdk)** - Official Python & JavaScript SDKs
 - **[Examples](https://github.com/pollaxai/examples)** - Sample implementations and use cases
 - **[Developer Portal](https://developers.pollax.ai)** - API keys, webhooks, and integrations
@@ -212,5 +212,5 @@ Our open-source projects are released under the MIT License. See individual repo
   <p><strong>Built by the Pollax team</strong></p>
   <p>© 2026 Pollax AI. All rights reserved.</p>
   
-  [Website](https://pollax.ai) • [Documentation](https://docs.pollax.ai) • [API Status](https://status.pollax.ai) • [Privacy Policy](https://pollax.ai/privacy) • [Terms of Service](https://pollax.ai/terms)
+  [Website](https://pollax.ai) • [Documentation](https://www.pollax.ai/docs) • [API Status](https://status.pollax.ai) • [Privacy Policy](https://www.pollax.ai/privacy-policy) • [Terms of Service](https://www.pollax.ai/terms-of-service)
 </div>
